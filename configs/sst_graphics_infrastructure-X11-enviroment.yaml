@@ -10,6 +10,12 @@ data:
     - mesa-libGLw
     - mesa-libGLU
     - xrestop
-
+    - libXp
+    # No-ops in terms of functionality, just ABI compat purposes
+    - libXScrnSaver
+    - libXvMC
+    - libXxf86dga
+    - libXxf86misc
+    ##############
   labels:
     - eln
